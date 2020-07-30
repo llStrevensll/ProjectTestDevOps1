@@ -5,6 +5,8 @@
  */
 package co.com.strevens.devops;
 
+import co.com.strevens.calculadora.Calculadora;
+
 /**
  *
  * @author angue
@@ -12,6 +14,8 @@ package co.com.strevens.devops;
 public class devops {
     public static void main(String[] args) {
         
+        Calculadora.suma(2, 3);
+        Calculadora.resta(3, 2);
         System.out.println("Good");
     }
    
